@@ -126,7 +126,7 @@ class Slider extends React.Component {
      * Used to style and layout the `Slider`.  See `StyleSheet.js` and
      * `DeprecatedViewStylePropTypes.js` for more info.
      */
-    style: ViewPropTypes.style,
+    style: PropTypes.any,
 
     /**
      * Used to locate this view in UI automation tests.
