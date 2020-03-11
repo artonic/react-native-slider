@@ -8,7 +8,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "js/Slider.js",
+  "main": "js/Slider",
   "types": "typings/index.d.ts",
   "keywords": [
     "react-native",
@@ -16,6 +16,7 @@
     "slider"
   ],
   "peerDependencies": {
+    "prop-types": "*",
     "react": "*",
     "react-native": "*"
   },
